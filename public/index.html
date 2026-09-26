@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,63 +6,70 @@
 <title>Ayyan &amp; Anabiya Champions Trophy — Dakshin Raigad 40+ Legend Tournament — Player Registration</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
-    --pitch:#163422;
-    --pitch-deep:#0e2417;
-    --paper:#F3EEDD;
-    --paper-2:#EAE2C8;
-    --ink:#1C1B17;
-    --ink-soft:#4A473C;
-    --leather:#A63625;
-    --leather-deep:#7E2718;
-    --gold:#C79A46;
-    --gold-soft:#E4CE9A;
-    --wk:#2C4A63;
-    --allr:#7A5A2E;
-    --ok:#2E6B45;
-    --err:#A63625;
-    --radius:10px;
-    --shadow: 0 6px 18px rgba(14,36,23,0.14);
+    --primary:#5B21B6;
+    --primary-deep:#3B0F80;
+    --pitch:#5B21B6;
+    --pitch-deep:#3B0F80;
+    --accent:#FF5A36;
+    --accent-2:#00C2A8;
+    --accent-3:#FFB700;
+    --grad-header: linear-gradient(115deg, #4C1D95 0%, #7C3AED 42%, #FF5A36 100%);
+    --paper:#F6F5FB;
+    --paper-2:#EAE7F6;
+    --ink:#1A1830;
+    --ink-soft:#615E78;
+    --leather:#FF5A36;
+    --leather-deep:#D6431F;
+    --gold:#00C2A8;
+    --gold-soft:#8FE9DC;
+    --wk:#0EA5E9;
+    --allr:#F59E0B;
+    --ok:#00A878;
+    --err:#E11D48;
+    --border:#DDD8EF;
+    --radius:12px;
+    --shadow: 0 8px 24px rgba(76,29,149,0.12);
   }
   *{box-sizing:border-box;}
   body{margin:0;background:var(--paper);color:var(--ink);font-family:'Inter',sans-serif;-webkit-font-smoothing:antialiased;}
-  .display{font-family:'Fraunces',serif;}
-  .mono{font-family:'Space Mono',monospace;}
-  header.site{background:linear-gradient(180deg,var(--pitch) 0%, var(--pitch-deep) 100%);color:var(--paper);padding:22px 20px 0;position:relative;border-bottom:3px solid var(--gold);}
+  .display{font-family:'Sora',sans-serif;}
+  .mono{font-family:'JetBrains Mono',monospace;}
+  header.site{background:var(--grad-header);color:#fff;padding:22px 20px 0;position:relative;border-bottom:3px solid var(--accent-3);}
   .header-inner{max-width:1120px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;padding-bottom:18px;}
   .crest{display:flex;align-items:center;gap:12px;}
-  .crest-mark{width:46px;height:46px;border:2px solid var(--gold);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Fraunces',serif;font-weight:700;font-size:15px;color:var(--gold);flex-shrink:0;}
-  .crest-text .eyebrow{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-soft);margin:0 0 2px;}
-  .crest-text h1{font-size:20px;margin:0;font-weight:600;letter-spacing:.01em;}
-  nav.tabs{display:flex;gap:2px;background:rgba(255,255,255,0.06);padding:4px;border-radius:999px;}
-  nav.tabs button{border:none;background:transparent;color:var(--paper);padding:9px 20px;font-family:'Space Mono',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;border-radius:999px;cursor:pointer;transition:background .2s, color .2s;}
-  nav.tabs button.active{background:var(--gold);color:var(--pitch-deep);font-weight:700;}
-  .tagline-strip{max-width:1120px;margin:0 auto;padding:0 0 16px;color:var(--paper-2);font-size:14px;border-top:1px solid rgba(255,255,255,0.12);padding-top:12px;}
-  .tagline-strip strong{color:var(--gold-soft);}
+  .crest-mark{width:46px;height:46px;border:2px solid #fff;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:'Sora',sans-serif;font-weight:700;font-size:15px;color:#fff;flex-shrink:0;background:rgba(255,255,255,0.12);}
+  .crest-text .eyebrow{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-3);margin:0 0 2px;font-weight:700;}
+  .crest-text h1{font-size:20px;margin:0;font-weight:700;letter-spacing:.01em;font-family:'Sora',sans-serif;color:#fff;}
+  nav.tabs{display:flex;gap:2px;background:rgba(255,255,255,0.14);padding:4px;border-radius:999px;}
+  nav.tabs button{border:none;background:transparent;color:#fff;padding:9px 20px;font-family:'JetBrains Mono',monospace;font-size:12px;letter-spacing:.08em;text-transform:uppercase;border-radius:999px;cursor:pointer;transition:background .2s, color .2s;}
+  nav.tabs button.active{background:#fff;color:var(--primary-deep);font-weight:700;}
+  .tagline-strip{max-width:1120px;margin:0 auto;padding:0 0 16px;color:rgba(255,255,255,0.85);font-size:14px;border-top:1px solid rgba(255,255,255,0.2);padding-top:12px;}
+  .tagline-strip strong{color:var(--accent-3);}
   main{max-width:1120px;margin:0 auto;padding:32px 20px 80px;}
   .reg-grid{display:grid;grid-template-columns: 1.35fr 1fr;gap:28px;align-items:start;}
   @media (max-width: 860px){ .reg-grid{grid-template-columns:1fr;} .card-preview-wrap{order:-1;} }
   .panel{background:#fff;border:1px solid var(--paper-2);border-radius:var(--radius);box-shadow:var(--shadow);padding:26px 26px 30px;}
-  .panel h2{font-family:'Fraunces',serif;font-size:20px;margin:0 0 4px;}
+  .panel h2{font-family:'Sora',sans-serif;font-size:20px;margin:0 0 4px;}
   .panel .sub{color:var(--ink-soft);font-size:13px;margin:0 0 22px;}
   .field{margin-bottom:18px;}
   .field label{display:block;font-size:12px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:6px;}
-  .field input[type=text], .field input[type=tel]{width:100%;padding:11px 13px;border:1.5px solid #DCD5BC;border-radius:8px;font-size:15px;font-family:'Inter',sans-serif;background:var(--paper);color:var(--ink);transition:border-color .15s;}
+  .field input[type=text], .field input[type=tel]{width:100%;padding:11px 13px;border:1.5px solid #DDD8EF;border-radius:8px;font-size:15px;font-family:'Inter',sans-serif;background:var(--paper);color:var(--ink);transition:border-color .15s;}
   .field input:focus{outline:none;border-color:var(--leather);}
   .field .hint{font-size:11px;color:var(--ink-soft);margin-top:5px;}
   .field .err-msg{font-size:12px;color:var(--err);margin-top:5px;display:none;}
   .field.invalid input, .field.invalid .role-grid, .field.invalid .upload-box{border-color:var(--err) !important;}
   .field.invalid .err-msg{display:block;}
   .role-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;}
-  .role-card{border:1.5px solid #DCD5BC;border-radius:8px;padding:14px 12px;text-align:center;cursor:pointer;background:var(--paper);transition:all .15s;user-select:none;}
+  .role-card{border:1.5px solid #DDD8EF;border-radius:8px;padding:14px 12px;text-align:center;cursor:pointer;background:var(--paper);transition:all .15s;user-select:none;}
   .role-card:hover{border-color:var(--gold);}
   .role-card .ic{font-size:22px;display:block;margin-bottom:6px;}
   .role-card .lbl{font-size:13px;font-weight:600;}
-  .role-card.selected{border-color:var(--leather);background:#FBEFE9;box-shadow:inset 0 0 0 1px var(--leather);}
+  .role-card.selected{border-color:var(--leather);background:#FFE9E2;box-shadow:inset 0 0 0 1px var(--leather);}
   .role-card.selected .lbl{color:var(--leather-deep);}
-  .upload-box{border:1.5px dashed #C9C0A0;border-radius:8px;padding:18px;text-align:center;background:var(--paper);cursor:pointer;position:relative;}
+  .upload-box{border:1.5px dashed #C7BEEA;border-radius:8px;padding:18px;text-align:center;background:var(--paper);cursor:pointer;position:relative;}
   .upload-box input[type=file]{position:absolute;inset:0;opacity:0;cursor:pointer;}
   .photo-preview{width:88px;height:88px;border-radius:50%;border:2px solid var(--gold);object-fit:cover;margin:0 auto 10px;display:block;background:#fff;}
   .upload-box .up-txt{font-size:13px;color:var(--ink-soft);}
@@ -73,41 +79,41 @@
   @media (max-width:520px){ .ledger{grid-template-columns:1fr;} }
   .qr-box{background:#fff;border:1px solid var(--paper-2);border-radius:6px;padding:8px;text-align:center;}
   .qr-box img{width:100%;display:block;border-radius:4px;}
-  .qr-box .qr-cap{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);margin-top:6px;}
+  .qr-box .qr-cap{font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-soft);margin-top:6px;}
   .qr-empty{font-size:12px;color:var(--ink-soft);padding:20px 6px;}
   .submit-btn{width:100%;background:var(--leather);color:#fff;border:none;padding:14px;border-radius:8px;font-size:15px;font-weight:700;letter-spacing:.02em;cursor:pointer;margin-top:6px;transition:background .15s;}
   .submit-btn:hover{background:var(--leather-deep);}
-  .submit-btn:disabled{background:#C9BFA6;cursor:not-allowed;}
+  .submit-btn:disabled{background:#C9C3E0;cursor:not-allowed;}
   .success-box{text-align:center;padding:40px 20px;}
   .success-box .stamp{width:74px;height:74px;border-radius:50%;border:2.5px solid var(--ok);color:var(--ok);display:flex;align-items:center;justify-content:center;font-size:34px;margin:0 auto 18px;}
   .success-box h2{margin-bottom:6px;}
-  .success-box .regno{font-family:'Space Mono',monospace;font-size:13px;background:var(--paper);border:1px dashed var(--gold);display:inline-block;padding:6px 14px;border-radius:6px;margin-top:14px;}
+  .success-box .regno{font-family:'JetBrains Mono',monospace;font-size:13px;background:var(--paper);border:1px dashed var(--gold);display:inline-block;padding:6px 14px;border-radius:6px;margin-top:14px;}
   .card-preview-wrap{position:sticky; top:20px;}
   .auction-card{background:linear-gradient(160deg,#fff 0%, var(--paper) 100%);border:1px solid var(--paper-2);border-radius:14px;box-shadow:var(--shadow);overflow:hidden;position:relative;}
-  .auction-card .ribbon{position:absolute;top:14px;right:-32px;background:var(--gold);color:var(--pitch-deep);font-family:'Space Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:4px 40px;transform:rotate(38deg);font-weight:700;}
+  .auction-card .ribbon{position:absolute;top:14px;right:-32px;background:var(--gold);color:var(--pitch-deep);font-family:'JetBrains Mono',monospace;font-size:10px;letter-spacing:.08em;text-transform:uppercase;padding:4px 40px;transform:rotate(38deg);font-weight:700;}
   .ac-top{background:var(--pitch);padding:16px 18px 40px;color:var(--paper);position:relative;}
-  .ac-regno{font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.1em;color:var(--gold-soft);}
-  .ac-photo{width:96px;height:96px;border-radius:50%;border:3px solid var(--gold);object-fit:cover;background:#2b4d38;position:absolute;bottom:-38px;left:18px;display:flex;align-items:center;justify-content:center;color:var(--gold-soft);font-size:30px;}
+  .ac-regno{font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.1em;color:var(--gold-soft);}
+  .ac-photo{width:96px;height:96px;border-radius:50%;border:3px solid var(--gold);object-fit:cover;background:var(--primary-deep);position:absolute;bottom:-38px;left:18px;display:flex;align-items:center;justify-content:center;color:var(--gold-soft);font-size:30px;}
   .ac-body{padding:46px 18px 20px;}
-  .ac-name{font-family:'Fraunces',serif;font-size:21px;font-weight:600;margin:0 0 4px;}
+  .ac-name{font-family:'Sora',sans-serif;font-size:21px;font-weight:600;margin:0 0 4px;}
   .ac-loc{font-size:12.5px;color:var(--ink-soft);margin:0 0 14px;}
-  .ac-role-badge{display:inline-block;font-family:'Space Mono',monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:5px 12px;border-radius:999px;color:#fff;margin-bottom:16px;}
+  .ac-role-badge{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase;padding:5px 12px;border-radius:999px;color:#fff;margin-bottom:16px;}
   .ac-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;border-top:1px dashed var(--paper-2);padding-top:14px;}
   .ac-stats div{font-size:11px;color:var(--ink-soft);}
-  .ac-stats div b{display:block;font-family:'Space Mono',monospace;font-size:13px;color:var(--ink);margin-top:2px;}
+  .ac-stats div b{display:block;font-family:'JetBrains Mono',monospace;font-size:13px;color:var(--ink);margin-top:2px;}
   .ac-note{font-size:11px;text-align:center;color:var(--ink-soft);padding:12px 18px 0;margin-top:4px;}
   .admin-lock{max-width:380px;margin:60px auto;text-align:center;}
   .admin-lock .vault{width:60px;height:60px;border-radius:50%;border:2px solid var(--gold);color:var(--gold);display:flex;align-items:center;justify-content:center;font-size:26px;margin:0 auto 16px;}
-  .admin-lock input{width:100%;padding:12px;border:1.5px solid #DCD5BC;border-radius:8px;font-size:15px;text-align:center;margin:16px 0 10px;font-family:'Space Mono',monospace;}
+  .admin-lock input{width:100%;padding:12px;border:1.5px solid #DDD8EF;border-radius:8px;font-size:15px;text-align:center;margin:16px 0 10px;font-family:'JetBrains Mono',monospace;}
   .admin-lock button{background:var(--pitch);color:#fff;border:none;padding:11px 26px;border-radius:8px;cursor:pointer;font-weight:600;}
   .admin-lock .lock-err{color:var(--err);font-size:12px;margin-top:8px;display:none;}
   .admin-bar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;margin-bottom:20px;}
-  .scoreboard-total{background:var(--pitch);color:var(--paper);padding:10px 20px;border-radius:8px;font-family:'Space Mono',monospace;display:flex;align-items:baseline;gap:10px;}
+  .scoreboard-total{background:var(--pitch);color:var(--paper);padding:10px 20px;border-radius:8px;font-family:'JetBrains Mono',monospace;display:flex;align-items:baseline;gap:10px;}
   .scoreboard-total .num{font-size:24px;font-weight:700;color:var(--gold);}
   .scoreboard-total .lbl{font-size:11px;letter-spacing:.08em;text-transform:uppercase;}
   .admin-controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;}
-  .admin-controls input[type=text]{padding:9px 12px;border:1.5px solid #DCD5BC;border-radius:7px;font-size:13px;min-width:180px;}
-  .chip{padding:7px 14px;border-radius:999px;border:1.5px solid #DCD5BC;background:#fff;font-size:12px;cursor:pointer;font-weight:600;color:var(--ink-soft);}
+  .admin-controls input[type=text]{padding:9px 12px;border:1.5px solid #DDD8EF;border-radius:7px;font-size:13px;min-width:180px;}
+  .chip{padding:7px 14px;border-radius:999px;border:1.5px solid #DDD8EF;background:#fff;font-size:12px;cursor:pointer;font-weight:600;color:var(--ink-soft);}
   .chip.active{background:var(--pitch);color:var(--paper);border-color:var(--pitch);}
   .btn-outline{padding:9px 16px;border-radius:7px;border:1.5px solid var(--pitch);background:#fff;color:var(--pitch);font-size:12.5px;font-weight:700;cursor:pointer;}
   .btn-outline:hover{background:var(--pitch);color:#fff;}
@@ -117,7 +123,7 @@
   table.roster tr:nth-child(even) td{background:var(--paper);}
   table.roster tr:hover td{background:var(--gold-soft);}
   .roster-photo{width:40px;height:40px;border-radius:50%;object-fit:cover;border:1.5px solid var(--gold);}
-  .role-pill{display:inline-block;font-family:'Space Mono',monospace;font-size:10.5px;text-transform:uppercase;padding:3px 9px;border-radius:999px;color:#fff;}
+  .role-pill{display:inline-block;font-family:'JetBrains Mono',monospace;font-size:10.5px;text-transform:uppercase;padding:3px 9px;border-radius:999px;color:#fff;}
   .proof-link{color:var(--leather);font-size:12px;text-decoration:underline;cursor:pointer;background:none;border:none;padding:0;}
   .empty-state{text-align:center;padding:60px 20px;color:var(--ink-soft);}
   .qr-admin-box{background:#fff;border:1px solid var(--paper-2);border-radius:10px;padding:18px;margin-bottom:22px;display:flex;gap:16px;align-items:center;flex-wrap:wrap;}
@@ -162,7 +168,7 @@
     <div id="id-lookup-wrap" class="panel" style="display:none;max-width:520px;margin:0 auto;">
       <h2 class="display" style="margin-bottom:4px;">Find Your ID Card</h2>
       <p class="sub">Enter the mobile number you used to register.</p>
-      <input type="tel" id="lookupMobile" placeholder="10-digit mobile number" maxlength="10" style="width:100%;padding:11px 13px;border:1.5px solid #DCD5BC;border-radius:8px;font-size:15px;font-family:'Inter',sans-serif;background:var(--paper);color:var(--ink);">
+      <input type="tel" id="lookupMobile" placeholder="10-digit mobile number" maxlength="10" style="width:100%;padding:11px 13px;border:1.5px solid #DDD8EF;border-radius:8px;font-size:15px;font-family:'Inter',sans-serif;background:var(--paper);color:var(--ink);">
       <div class="err-msg" id="lookupErr" style="color:var(--err);font-size:12px;margin-top:6px;display:none;"></div>
       <div style="margin-top:14px;display:flex;gap:10px;">
         <button class="submit-btn" style="margin-top:0;" onclick="findMyIdCard()">Find My ID Card</button>
@@ -242,7 +248,7 @@
                     <input type="file" id="proofInput" accept="image/jpeg,image/png">
                   </div>
                   <label for="txnRef" style="font-size:11px;font-weight:600;text-transform:uppercase;color:var(--ink-soft);display:block;margin-bottom:5px;">Transaction / Reference ID (optional)</label>
-                  <input type="text" id="txnRef" placeholder="e.g. UPI Ref No." class="mono" style="width:100%;padding:9px 11px;border:1.5px solid #DCD5BC;border-radius:7px;font-size:13px;">
+                  <input type="text" id="txnRef" placeholder="e.g. UPI Ref No." class="mono" style="width:100%;padding:9px 11px;border:1.5px solid #DDD8EF;border-radius:7px;font-size:13px;">
                 </div>
               </div>
               <div class="err-msg" style="margin-top:8px;">Please upload proof of payment.</div>
@@ -312,15 +318,15 @@
       </div>
       <div class="qr-admin-box" id="changePassBox" style="display:none;">
         <div class="txt" style="margin-bottom:10px;">Change the admin password used to unlock this panel.</div>
-        <input type="password" id="newAdminPass" placeholder="New password" style="width:100%;padding:10px;border:1.5px solid #DCD5BC;border-radius:8px;font-size:14px;margin-bottom:8px;">
-        <input type="password" id="confirmAdminPass" placeholder="Confirm new password" style="width:100%;padding:10px;border:1.5px solid #DCD5BC;border-radius:8px;font-size:14px;margin-bottom:8px;">
+        <input type="password" id="newAdminPass" placeholder="New password" style="width:100%;padding:10px;border:1.5px solid #DDD8EF;border-radius:8px;font-size:14px;margin-bottom:8px;">
+        <input type="password" id="confirmAdminPass" placeholder="Confirm new password" style="width:100%;padding:10px;border:1.5px solid #DDD8EF;border-radius:8px;font-size:14px;margin-bottom:8px;">
         <button class="btn-outline" onclick="changeAdminPassword()">Update Password</button>
         <div id="passChangeMsg" style="font-size:12.5px;margin-top:8px;"></div>
       </div>
       <div class="qr-admin-box" id="changeSuperPassBox" style="display:none;">
         <div class="txt" style="margin-bottom:10px;">Change the Super Admin password (this one can also delete registrations).</div>
-        <input type="password" id="newSuperAdminPass" placeholder="New Super Admin password" style="width:100%;padding:10px;border:1.5px solid #DCD5BC;border-radius:8px;font-size:14px;margin-bottom:8px;">
-        <input type="password" id="confirmSuperAdminPass" placeholder="Confirm new password" style="width:100%;padding:10px;border:1.5px solid #DCD5BC;border-radius:8px;font-size:14px;margin-bottom:8px;">
+        <input type="password" id="newSuperAdminPass" placeholder="New Super Admin password" style="width:100%;padding:10px;border:1.5px solid #DDD8EF;border-radius:8px;font-size:14px;margin-bottom:8px;">
+        <input type="password" id="confirmSuperAdminPass" placeholder="Confirm new password" style="width:100%;padding:10px;border:1.5px solid #DDD8EF;border-radius:8px;font-size:14px;margin-bottom:8px;">
         <button class="btn-outline" onclick="changeSuperAdminPassword()">Update Password</button>
         <div id="superPassChangeMsg" style="font-size:12.5px;margin-top:8px;"></div>
       </div>
@@ -359,11 +365,11 @@
       <div class="qr-admin-box">
         <div class="txt" style="margin-bottom:10px;">Make an owner out of an already-registered member — owners aren't outsiders, so pick them from the registration list below and give them a starting budget.</div>
         <div style="display:flex;gap:10px;flex-wrap:wrap;">
-          <select id="ownerMemberSelect" style="flex:1;min-width:180px;padding:10px;border:1.5px solid #DCD5BC;border-radius:8px;font-size:14px;">
+          <select id="ownerMemberSelect" style="flex:1;min-width:180px;padding:10px;border:1.5px solid #DDD8EF;border-radius:8px;font-size:14px;">
             <option value="">Select registered member…</option>
           </select>
-          <input type="text" id="ownerTeamName" placeholder="Team name" style="width:160px;padding:10px;border:1.5px solid #DCD5BC;border-radius:8px;font-size:14px;">
-          <input type="number" id="ownerBudget" placeholder="Starting budget" style="width:150px;padding:10px;border:1.5px solid #DCD5BC;border-radius:8px;font-size:14px;">
+          <input type="text" id="ownerTeamName" placeholder="Team name" style="width:160px;padding:10px;border:1.5px solid #DDD8EF;border-radius:8px;font-size:14px;">
+          <input type="number" id="ownerBudget" placeholder="Starting budget" style="width:150px;padding:10px;border:1.5px solid #DDD8EF;border-radius:8px;font-size:14px;">
           <button class="btn-outline" onclick="addOwner()">Add Owner</button>
         </div>
         <div class="txt" style="margin-top:8px;">Login details are generated automatically — username is their first name (with a number added if two owners share one, e.g. "rajesh" / "rajesh1"), password is their first 3 initials + 12345. Both are shown once right after you add them, and you can reset the password anytime from the list below. The member picked as owner is automatically kept out of the live auction.</div>
@@ -422,7 +428,7 @@
     <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:10px;margin-bottom:4px;">
       <div>
         <h2 class="display" style="margin-bottom:4px;" id="teamsHeading">The Teams</h2>
-        <p class="sub" style="margin:0;">Each team's full squad — bought in the auction or pre-assigned as a core pick. <span style="color:#CC0000;font-weight:700;">48 Plus</span> players are shown in bold red.</p>
+        <p class="sub" style="margin:0;">Each team's full squad — bought in the auction or pre-assigned as a core pick. <span style="color:#E11D48;font-weight:700;">48 Plus</span> players are shown in bold red.</p>
       </div>
       <button class="btn-outline" onclick="copyRosterAsText()">📋 Copy roster for WhatsApp</button>
     </div>
@@ -431,7 +437,7 @@
     <div style="display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:10px;margin:34px 0 10px;">
       <div>
         <h2 class="display" style="margin-bottom:4px;" id="unsoldHeading">Unsold Players</h2>
-        <p class="sub" style="margin:0;">Players not sold to any team yet. <span style="color:#CC0000;font-weight:700;">48 Plus</span> players are shown in bold red.</p>
+        <p class="sub" style="margin:0;">Players not sold to any team yet. <span style="color:#E11D48;font-weight:700;">48 Plus</span> players are shown in bold red.</p>
       </div>
       <a class="btn-outline" href="/api/unsold/pdf" download style="text-decoration:none;">📄 Unsold list PDF</a>
     </div>
@@ -443,7 +449,7 @@
 <div class="modal-bg" id="imgModal" onclick="this.classList.remove('show')"><img id="modalImg" src=""></div>
 
 <script>
-const roleColors = { "Batsman":"#A63625", "Bowler":"#163422", "All-Rounder":"#7A5A2E", "Wicket Keeper":"#2C4A63" };
+const roleColors = { "Batsman":"#FF5A36", "Bowler":"#5B21B6", "All-Rounder":"#F59E0B", "Wicket Keeper":"#0EA5E9" };
 // Age category defaults to "Under 48" (pre-selected on the form) — only "48 Plus" players
 // need to actively tap the other card. Makes filtering later much easier since it's never blank.
 let selectedRole = null, selectedAge = 'Under 48', photoFile = null, proofFile = null;
@@ -1104,9 +1110,9 @@ async function checkAdminPass(){
       document.getElementById('admin-panel').style.display='block';
       const badge = document.getElementById('roleBadge');
       badge.textContent = isSuperAdmin ? 'Super Admin' : 'Admin';
-      badge.style.background = isSuperAdmin ? 'var(--leather)' : '#888';
+      badge.style.background = isSuperAdmin ? 'var(--leather)' : '#8B87A6';
       badge.style.color = '#fff';
-      badge.style.borderColor = isSuperAdmin ? 'var(--leather)' : '#888';
+      badge.style.borderColor = isSuperAdmin ? 'var(--leather)' : '#8B87A6';
       document.getElementById('superPassBtn').style.display = isSuperAdmin ? '' : 'none';
       document.getElementById('regCapBox').style.display = isSuperAdmin ? 'block' : 'none';
       if(isSuperAdmin) loadRegistrationCapStatus();
@@ -1269,10 +1275,10 @@ async function loadUnsold(){
       return `<div class="panel" style="padding:10px 12px;display:flex;align-items:center;gap:10px;">
         <img class="roster-photo" src="${p.photo_url}" style="width:38px;height:38px;">
         <div style="flex:1;min-width:0;">
-          <div style="font-size:13px;font-weight:${is48?'800':'600'};color:${is48?'#CC0000':'inherit'};white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${escapeHtml(p.name)}${is48?' (48+)':''}</div>
+          <div style="font-size:13px;font-weight:${is48?'800':'600'};color:${is48?'#E11D48':'inherit'};white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${escapeHtml(p.name)}${is48?' (48+)':''}</div>
           <div style="font-size:11px;color:var(--ink-soft);">${escapeHtml(p.role)}</div>
         </div>
-        <span class="role-pill" style="background:${p.status==='Unsold'?'#B45309':'var(--ok)'};color:#fff;font-size:10px;white-space:nowrap;">${p.status==='Unsold'?'Passed':'Available'}</span>
+        <span class="role-pill" style="background:${p.status==='Unsold'?'#E58900':'var(--ok)'};color:#fff;font-size:10px;white-space:nowrap;">${p.status==='Unsold'?'Passed':'Available'}</span>
       </div>`;}).join('')}</div>`;
   }catch(err){ wrap.innerHTML = '<div class="empty-state">Could not load unsold players.</div>'; }
 }
@@ -1307,11 +1313,11 @@ function renderTeams(teams){
             return `<div style="display:flex;align-items:center;gap:8px;padding:7px 0;border-top:1px solid #EDE7D0;">
             <img class="roster-photo" src="${p.photo_url}" style="width:30px;height:30px;">
             <div style="flex:1;min-width:0;">
-              <div style="font-size:13px;font-weight:${isPlus48?'800':'600'};color:${isPlus48?'#CC0000':'inherit'};white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${escapeHtml(p.name)}${isPlus48?' (48+)':''}</div>
+              <div style="font-size:13px;font-weight:${isPlus48?'800':'600'};color:${isPlus48?'#E11D48':'inherit'};white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${escapeHtml(p.name)}${isPlus48?' (48+)':''}</div>
               <div style="font-size:11px;color:var(--ink-soft);">${escapeHtml(p.role)}</div>
               <div style="font-size:11px;color:var(--ink-soft);margin-top:1px;">${p.mobile ? `📞 <a href="tel:${escapeHtml(p.mobile)}" style="color:inherit;">${escapeHtml(p.mobile)}</a>` : ''}${p.location ? ` · 📍 ${escapeHtml(p.location)}` : ''}</div>
             </div>
-            ${p.pick_tag ? `<span class="role-pill" style="background:${PICK_TAG_COLORS[p.pick_tag]||'#7a5cff'};color:${PICK_TAG_INK[p.pick_tag]||'#fff'};font-size:10px;white-space:nowrap;">${escapeHtml(p.pick_tag)}</span>` : `<span class="role-pill" style="background:#888;font-size:10px;white-space:nowrap;">₹${Number(p.sold_price||0).toLocaleString()}</span>`}
+            ${p.pick_tag ? `<span class="role-pill" style="background:${PICK_TAG_COLORS[p.pick_tag]||'#00C2A8'};color:${PICK_TAG_INK[p.pick_tag]||'#fff'};font-size:10px;white-space:nowrap;">${escapeHtml(p.pick_tag)}</span>` : `<span class="role-pill" style="background:#8B87A6;font-size:10px;white-space:nowrap;">₹${Number(p.sold_price||0).toLocaleString()}</span>`}
           </div>`;
           }).join('');
       const ownerBadgeHtml = ownerPick
@@ -1495,7 +1501,7 @@ function corePickCell(owner, tag, price){
   }
   const options = available.map(p=>`<option value="${p.id}">${escapeHtml(p.name)} (${escapeHtml(p.role)})</option>`).join('');
   const selId = `corePick-${owner.id}-${tag.replace(/\s+/g,'')}`;
-  return `<select id="${selId}" style="padding:6px;border-radius:6px;border:1px solid #DCD5BC;max-width:170px;">
+  return `<select id="${selId}" style="padding:6px;border-radius:6px;border:1px solid #DDD8EF;max-width:170px;">
       <option value="">Select…</option>${options}
     </select><br>
     <button class="proof-link" onclick="assignCorePick(${owner.id}, '${tag}', ${price}, '${selId}')">Assign</button>`;
@@ -1540,7 +1546,7 @@ function showChangeOwner(id){
   const taken = new Set(owners.filter(x => x.id !== id).map(x => x.owner_player_id).filter(v => v !== null && v !== undefined));
   const choices = players.filter(p => p.status !== 'Sold' && !taken.has(p.id)).slice().sort((a,b)=>a.name.localeCompare(b.name));
   const cell = document.getElementById('ownerCell-' + id);
-  cell.innerHTML = `<select id="ownerPick-${id}" style="max-width:190px;padding:6px;border:1.5px solid #DCD5BC;border-radius:6px;font-size:12.5px;">
+  cell.innerHTML = `<select id="ownerPick-${id}" style="max-width:190px;padding:6px;border:1.5px solid #DDD8EF;border-radius:6px;font-size:12.5px;">
       <option value="">Select new owner…</option>
       ${choices.map(p => `<option value="${p.id}">${escapeHtml(p.name)} — ${escapeHtml(p.location)} (${escapeHtml(p.role)})</option>`).join('')}
     </select>
@@ -1664,15 +1670,15 @@ function renderAuctionBoard(){
 
   let rows = list.map(p=>{
     const isPlus48 = p.age_category === '48 Plus';
-    const nameStyle = isPlus48 ? 'color:#CC0000;font-weight:700;' : '';
-    const plus48Tag = isPlus48 ? ' <span style="color:#CC0000;font-weight:700;">(48+)</span>' : '';
+    const nameStyle = isPlus48 ? 'color:#E11D48;font-weight:700;' : '';
+    const plus48Tag = isPlus48 ? ' <span style="color:#E11D48;font-weight:700;">(48+)</span>' : '';
     if(p.status === 'Sold'){
-      const tagBadge = p.pick_tag ? `<span class="role-pill" style="background:#7a5cff;font-size:10px;margin-left:6px;">${escapeHtml(p.pick_tag)}</span>` : '';
+      const tagBadge = p.pick_tag ? `<span class="role-pill" style="background:#00C2A8;font-size:10px;margin-left:6px;">${escapeHtml(p.pick_tag)}</span>` : '';
       return `<tr>
         <td class="mono">${String(p.id).padStart(3,'0')}</td>
         <td><img class="roster-photo" src="${p.photo_url}"></td>
         <td style="${nameStyle}">${escapeHtml(p.name)}${plus48Tag}</td>
-        <td><span class="role-pill" style="background:${roleColors[p.role]||'#888'}">${escapeHtml(p.role)}</span></td>
+        <td><span class="role-pill" style="background:${roleColors[p.role]||'#8B87A6'}">${escapeHtml(p.role)}</span></td>
         <td><span class="role-pill" style="background:var(--ok);">Sold</span>${tagBadge}</td>
         <td>${escapeHtml(p.owner_team_name || p.owner_name || '')}</td>
         <td class="mono">₹${Number(p.sold_price).toLocaleString()}</td>
@@ -1684,13 +1690,13 @@ function renderAuctionBoard(){
       <td class="mono">${String(p.id).padStart(3,'0')}</td>
       <td><img class="roster-photo" src="${p.photo_url}"></td>
       <td style="${nameStyle}">${escapeHtml(p.name)}${plus48Tag}</td>
-      <td><span class="role-pill" style="background:${roleColors[p.role]||'#888'}">${escapeHtml(p.role)}</span></td>
-      <td><span class="role-pill" style="background:${isUnsold ? 'var(--err)' : '#888'};">${escapeHtml(p.status)}</span></td>
+      <td><span class="role-pill" style="background:${roleColors[p.role]||'#8B87A6'}">${escapeHtml(p.role)}</span></td>
+      <td><span class="role-pill" style="background:${isUnsold ? 'var(--err)' : '#8B87A6'};">${escapeHtml(p.status)}</span></td>
       <td colspan="2">
-        <select id="ownerSel-${p.id}" style="padding:6px;border-radius:6px;border:1px solid #DCD5BC;">
+        <select id="ownerSel-${p.id}" style="padding:6px;border-radius:6px;border:1px solid #DDD8EF;">
           <option value="">Select owner…</option>${ownerOptions}
         </select>
-        <input type="number" id="priceInp-${p.id}" placeholder="Price" style="width:90px;padding:6px;border-radius:6px;border:1px solid #DCD5BC;">
+        <input type="number" id="priceInp-${p.id}" placeholder="Price" style="width:90px;padding:6px;border-radius:6px;border:1px solid #DDD8EF;">
       </td>
       <td><button class="proof-link" onclick="viewPlayerProfile(${p.id})">View</button> <button class="proof-link" onclick="sellPlayer(${p.id})">Sell</button> <button class="proof-link" onclick="toggleUnsold(${p.id}, ${!isUnsold})">${isUnsold ? 'Mark Available' : 'Mark Unsold'}</button></td>
     </tr>`;
@@ -1822,11 +1828,11 @@ function renderRoster(){
     return `<tr>
       <td class="mono">${escapeHtml(p.category_serial || String(i+1).padStart(3,'0'))}</td>
       <td><img class="roster-photo" src="${p.photo_url}"></td>
-      <td style="${isPlus48 ? 'color:#CC0000;font-weight:700;' : ''}">${escapeHtml(p.name)}</td>
+      <td style="${isPlus48 ? 'color:#E11D48;font-weight:700;' : ''}">${escapeHtml(p.name)}</td>
       <td>${escapeHtml(p.location)}</td>
       <td class="mono">${escapeHtml(p.mobile)}</td>
-      <td><span class="role-pill" style="background:${roleColors[p.role]||'#888'}">${escapeHtml(p.role)}</span></td>
-      <td style="font-size:12px;${isPlus48 ? 'color:#CC0000;font-weight:700;' : ''}">${escapeHtml(p.age_category || 'Under 48')}</td>
+      <td><span class="role-pill" style="background:${roleColors[p.role]||'#8B87A6'}">${escapeHtml(p.role)}</span></td>
+      <td style="font-size:12px;${isPlus48 ? 'color:#E11D48;font-weight:700;' : ''}">${escapeHtml(p.age_category || 'Under 48')}</td>
       <td><button class="proof-link" onclick="toggleRetained(${p.id}, ${!p.retained})" style="color:${p.retained ? 'var(--ok)' : 'var(--ink-soft)'};font-weight:${p.retained ? '700' : '400'};">${p.retained ? 'Yes' : 'No'}</button></td>
       <td><button class="proof-link" onclick="showModal('${p.proof_url}')">View</button></td>
       <td class="mono" style="font-size:11.5px;">${new Date(p.created_at).toLocaleString()}</td>
@@ -2072,16 +2078,16 @@ function renderOwnerBoard(){
 
   let rows = list.map(p=>{
     const isPlus48 = p.age_category === '48 Plus';
-    const nameStyle = isPlus48 ? 'color:#CC0000;font-weight:700;' : '';
-    const plus48Tag = isPlus48 ? ' <span style="color:#CC0000;font-weight:700;">(48+)</span>' : '';
+    const nameStyle = isPlus48 ? 'color:#E11D48;font-weight:700;' : '';
+    const plus48Tag = isPlus48 ? ' <span style="color:#E11D48;font-weight:700;">(48+)</span>' : '';
     if(p.status === 'Sold'){
       const mine = p.owner_id === ownerInfo.id;
-      const tagBadge = p.pick_tag ? `<span class="role-pill" style="background:#7a5cff;font-size:10px;margin-left:6px;">${escapeHtml(p.pick_tag)}</span>` : '';
+      const tagBadge = p.pick_tag ? `<span class="role-pill" style="background:#00C2A8;font-size:10px;margin-left:6px;">${escapeHtml(p.pick_tag)}</span>` : '';
       return `<tr>
         <td class="mono">${String(p.id).padStart(3,'0')}</td>
         <td><img class="roster-photo" src="${p.photo_url}"></td>
         <td style="${nameStyle}">${escapeHtml(p.name)}${plus48Tag}${mine ? ' <span style="color:var(--ok);font-size:11px;">(your player)</span>' : ''}</td>
-        <td><span class="role-pill" style="background:${roleColors[p.role]||'#888'}">${escapeHtml(p.role)}</span></td>
+        <td><span class="role-pill" style="background:${roleColors[p.role]||'#8B87A6'}">${escapeHtml(p.role)}</span></td>
         <td><span class="role-pill" style="background:var(--ok);">Sold</span>${tagBadge}</td>
         <td>${escapeHtml(p.owner_team_name || p.owner_name || '')}</td>
         <td class="mono">₹${Number(p.sold_price).toLocaleString()}</td>
@@ -2092,10 +2098,10 @@ function renderOwnerBoard(){
       <td class="mono">${String(p.id).padStart(3,'0')}</td>
       <td><img class="roster-photo" src="${p.photo_url}"></td>
       <td style="${nameStyle}">${escapeHtml(p.name)}${plus48Tag}</td>
-      <td><span class="role-pill" style="background:${roleColors[p.role]||'#888'}">${escapeHtml(p.role)}</span></td>
-      <td><span class="role-pill" style="background:${p.status === 'Unsold' ? 'var(--err)' : '#888'};">${escapeHtml(p.status)}</span></td>
+      <td><span class="role-pill" style="background:${roleColors[p.role]||'#8B87A6'}">${escapeHtml(p.role)}</span></td>
+      <td><span class="role-pill" style="background:${p.status === 'Unsold' ? 'var(--err)' : '#8B87A6'};">${escapeHtml(p.status)}</span></td>
       <td colspan="2">
-        <input type="number" id="ownerPriceInp-${p.id}" placeholder="Your bid" style="width:100px;padding:6px;border-radius:6px;border:1px solid #DCD5BC;">
+        <input type="number" id="ownerPriceInp-${p.id}" placeholder="Your bid" style="width:100px;padding:6px;border-radius:6px;border:1px solid #DDD8EF;">
         <button class="btn-outline" style="padding:6px 12px;font-size:12px;" onclick="buyAsOwner(${p.id})">Buy</button>
       </td>
       <td><button class="proof-link" onclick="viewPlayerProfile(${p.id})">View</button></td>
@@ -2145,7 +2151,7 @@ function showPlayerProfile(player){
   document.getElementById('ppName').textContent = player.name;
   const roleEl = document.getElementById('ppRole');
   roleEl.textContent = player.role;
-  roleEl.style.background = roleColors[player.role] || '#888';
+  roleEl.style.background = roleColors[player.role] || '#8B87A6';
   roleEl.style.color = '#F3EEDD';
   document.getElementById('ppLocText').textContent = player.location;
   document.getElementById('playerProfileOverlay').style.display = 'block';
@@ -2192,7 +2198,7 @@ async function checkRegistrationStatus(){
     <p class="sub">Super Admin only. Fix a typo or wrong detail below.</p>
     <input type="hidden" id="editPlayerId">
     <div style="margin-top:14px;display:flex;align-items:center;gap:14px;">
-      <img id="editPhotoPreview" src="" style="width:64px;height:64px;border-radius:50%;object-fit:cover;border:1.5px solid #DCD5BC;">
+      <img id="editPhotoPreview" src="" style="width:64px;height:64px;border-radius:50%;object-fit:cover;border:1.5px solid #DDD8EF;">
       <div>
         <label style="font-size:12px;font-weight:600;color:var(--ink-soft);display:block;margin-bottom:4px;">Player Photo</label>
         <input type="file" id="editPhoto" accept="image/*" onchange="previewEditPhoto()" style="font-size:12.5px;">
@@ -2200,19 +2206,19 @@ async function checkRegistrationStatus(){
     </div>
     <div style="margin-top:14px;">
       <label style="font-size:12px;font-weight:600;color:var(--ink-soft);">Name</label>
-      <input type="text" id="editName" style="width:100%;padding:10px;border:1.5px solid #DCD5BC;border-radius:8px;font-size:14px;margin-top:4px;">
+      <input type="text" id="editName" style="width:100%;padding:10px;border:1.5px solid #DDD8EF;border-radius:8px;font-size:14px;margin-top:4px;">
     </div>
     <div style="margin-top:12px;">
       <label style="font-size:12px;font-weight:600;color:var(--ink-soft);">Location</label>
-      <input type="text" id="editLocation" style="width:100%;padding:10px;border:1.5px solid #DCD5BC;border-radius:8px;font-size:14px;margin-top:4px;">
+      <input type="text" id="editLocation" style="width:100%;padding:10px;border:1.5px solid #DDD8EF;border-radius:8px;font-size:14px;margin-top:4px;">
     </div>
     <div style="margin-top:12px;">
       <label style="font-size:12px;font-weight:600;color:var(--ink-soft);">Mobile</label>
-      <input type="tel" id="editMobile" maxlength="10" style="width:100%;padding:10px;border:1.5px solid #DCD5BC;border-radius:8px;font-size:14px;margin-top:4px;">
+      <input type="tel" id="editMobile" maxlength="10" style="width:100%;padding:10px;border:1.5px solid #DDD8EF;border-radius:8px;font-size:14px;margin-top:4px;">
     </div>
     <div style="margin-top:12px;">
       <label style="font-size:12px;font-weight:600;color:var(--ink-soft);">Role</label>
-      <select id="editRole" style="width:100%;padding:10px;border:1.5px solid #DCD5BC;border-radius:8px;font-size:14px;margin-top:4px;background:var(--paper);">
+      <select id="editRole" style="width:100%;padding:10px;border:1.5px solid #DDD8EF;border-radius:8px;font-size:14px;margin-top:4px;background:var(--paper);">
         <option value="Batsman">Batsman</option>
         <option value="Bowler">Bowler</option>
         <option value="All-Rounder">All-Rounder</option>
@@ -2221,7 +2227,7 @@ async function checkRegistrationStatus(){
     </div>
     <div style="margin-top:12px;">
       <label style="font-size:12px;font-weight:600;color:var(--ink-soft);">Age Category</label>
-      <select id="editAgeCategory" style="width:100%;padding:10px;border:1.5px solid #DCD5BC;border-radius:8px;font-size:14px;margin-top:4px;background:var(--paper);">
+      <select id="editAgeCategory" style="width:100%;padding:10px;border:1.5px solid #DDD8EF;border-radius:8px;font-size:14px;margin-top:4px;background:var(--paper);">
         <option value="48 Plus">48 Plus</option>
         <option value="Under 48">Under 48</option>
       </select>
